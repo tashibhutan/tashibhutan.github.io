@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tashibhutan.github.io/sitemap.xml
