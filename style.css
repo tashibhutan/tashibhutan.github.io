@@ -69,6 +69,9 @@ h2 { font-size:clamp(56px,6.2vw,94px); }
 .project-image img { transition:transform .5s ease; }
 .project-card:hover img { transform:scale(1.035); }
 .project-image span { position:absolute; top:0; left:0; background:var(--lime); padding:9px 12px; font-size:11px; }
+.project-visual { display:flex; align-items:flex-end; padding:34px; background:var(--ink); color:var(--cream); overflow:hidden; }
+.project-visual::after { content:""; position:absolute; width:230px; height:230px; border:1px solid rgba(200,229,74,.45); border-radius:50%; right:-45px; top:-45px; box-shadow:0 0 0 42px rgba(200,229,74,.06),0 0 0 84px rgba(200,229,74,.04); }
+.project-visual strong { position:relative; z-index:1; max-width:80%; font-family:"Newsreader",serif; font-size:38px; font-weight:400; line-height:1; }
 .tag { margin:20px 0 10px!important; text-transform:uppercase; color:var(--rust)!important; letter-spacing:.12em; font-size:10px!important; font-weight:600; }
 h3 { font-family:"Newsreader",serif; font-weight:400; font-size:30px; margin:0 0 12px; }
 .project-card>p { font-size:14px; color:#506a60; line-height:1.65; }
